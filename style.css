@@ -41,10 +41,14 @@ h6{
 .user-box
 {
 
-	top: 50%;
-	left: 50%;
+	top: 40%;
+	margin: auto;
+	/* left: 50%; */
 	transform: translate(80%,60%);
 	position: absolute;
+	/* justify-content: center; */
+	text-align: center;
+	/* align-items: center; */
 }
 
 
@@ -115,8 +119,8 @@ h6{
 
 .profile-img
 {
-	border-radius: 50%;
-	height: 300px;
+	/* border-radius: 50%; */
+	height: 250px;
 }
 
 
@@ -210,6 +214,10 @@ h6{
     height: 100%;
     z-index: 1;
 
+}
+
+.colour a{
+	color: white !important;
 }
 
 .timeline li
@@ -369,6 +377,7 @@ h6{
 	position: sticky;
 	z-index: 1;
 	width: 80px;
+	/* text-align: -webkit-center; */
 
 }
 
